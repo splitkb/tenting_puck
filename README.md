@@ -4,8 +4,6 @@ The tenting puck is an adapter which allows you to mount any 1/4th inch threaded
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-These files are available for non-commercial use only. You explicitly have permission to make objects with these files for yourself, friends, family and coworkers.
-
 ## How do I use these files?
 
 First off, if your keyboard already supports the tenting puck, you can just go ahead and use the puck! It mounts directly to the PCB using four 4mm M2 screws.
@@ -23,7 +21,7 @@ If you're making your own keyboard, then you can do either one of the following:
 - Keep the puck dimensions below in mind when designing - don't place tall components below the puck, and keep the puck screw posts clear from parts like hotswap sockets and pads.
 - The puck may be conductive. If you're adding a shield net to your keyboard, it can help to ground the puck through that.
 - Keep tolerances in mind: keep a small bit of space around the puck and its posts, so you have a little leeway during assembly.
-- The center hole may be ommitted, most tripods do not have a long enough thread length to use the extra clearance.
+- The center hole may be omitted, most tripods do not have a long enough thread length to use the extra clearance.
 - You may omit screw holes if they don't fit, but do mind that the puck may be conductive and you do need to keep the bottom of the PCB free of any pads or components where the screw post touches.
 
 ## Dimensions
