@@ -12,24 +12,27 @@ Most keyboards sold by splitkb.com support the puck, like the Kyria and all kits
 
 If you're making your own keyboard, then you can do either one of the following:
 
-1. **Add support for the tenting puck to your keyboard.** You can do this by using the `Tenting_Puck.kicad_mod` file in Kicad. This is a footprint file, which you can assign to a symbol in the schematics editor and then add to your keyboard's PCB.
+1. **Add support for the tenting puck to your keyboard.** You can do this by using the `TentingPuck.kicad_mod` or `TentingPuck_NoHole.kicad_mod` file in Kicad. This is a footprint file, which you can assign to a symbol in the schematics editor and then add to your keyboard's PCB.
 2. **Drill holes in a bottom plate.** Print the `puck_drill_template.pdf` at 100% scale, tape it to your plate and then drill the holes using a 2.5mm diameter drill (anything between 2.3 and 2.8mm will work, so drill sizes 43 to 35).
 
-## Important design notes
+## Which footprint do I need?
 
-- Adding puck support to a split keyboard? It helps to place the puck at the exact same coordinate (based on its center), so you can use identical bottom plates if your keyboard is symmetrical.
-- Keep the puck dimensions below in mind when designing - don't place tall components below the puck, and keep the puck screw posts clear from parts like hotswap sockets and pads.
-- The puck may be conductive. If you're adding a shield net to your keyboard, it can help to ground the puck through that.
-- Keep tolerances in mind: keep a small bit of space around the puck and its posts, so you have a little leeway during assembly.
-- The center hole may be omitted, most tripods do not have a long enough thread length to use the extra clearance.
-- You may omit screw holes if they don't fit, but do mind that the puck may be conductive and you do need to keep the bottom of the PCB free of any pads or components where the screw post touches.
+- Use `TentingPuck.kicad_mod` if your PCB has enough space to allow for it.
+- Otherwise, use `TentingPuck_NoHole.kicad_mod`.
 
 ## Dimensions
-
-Here are some dimensions to keep in mind when designing:
 
 - Puck diameter: 41.1mm
 - Puck total height: 6.6mm
 - Puck screw post dimensions: 3 x 3mm
-- Puck screw post thread depth: *up to* 5.6mm
-    - Manufacturing the threading is challenging, and so the thread depth will vary between individual holes. I recommend using up to 3mm of the thread depth, so we include 4mm M2 screws, which go through 1.6mm of PCB to then use a remaining 2.4mm of threading.
+- Puck screw post thread depth: _up to_ 5.6mm
+  - Manufacturing the threading is challenging, and so the thread depth will vary between individual holes. I recommend using up to 3mm of the thread depth, so we include 4mm M2 screws, which go through 1.6mm of PCB to then use a remaining 2.4mm of threading.
+
+## Important design notes
+
+- Adding puck support to a split keyboard? It helps to place the puck at the exact same coordinate (based on its center), so you can use identical bottom plates if your keyboard is symmetrical.
+- Keep the puck dimensions in mind when designing - don't place tall components below the puck, and keep the puck screw posts clear from parts like hotswap sockets and pads.
+- The puck may be conductive. If you're adding a shield net to your keyboard, it can help to ground the puck through that.
+- Keep tolerances in mind: keep a small bit of space around the puck and its posts, so you have a little leeway during assembly.
+- The center hole may be omitted, most tripods do not have a long enough thread length to use the extra clearance.
+- You may omit screw holes if they don't fit, but do mind that the puck may be conductive and you do need to keep the bottom of the PCB free of any pads or components where the screw post touches.
