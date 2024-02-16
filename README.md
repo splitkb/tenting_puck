@@ -27,6 +27,9 @@ If you're making your own keyboard, then you can do either one of the following:
 - Puck screw post dimensions: 3 x 3mm
 - Puck screw post thread depth: _up to_ 5.6mm
   - Manufacturing the threading is challenging, and so the thread depth will vary between individual holes. I recommend using up to 3mm of the thread depth, so we include 4mm M2 screws, which go through 1.6mm of PCB to then use a remaining 2.4mm of threading.
+- Clearance between PCB and puck body: 2.4mm
+
+All dimensions should be within a tolerance of ±0.1mm.
 
 ## Important design notes
 
